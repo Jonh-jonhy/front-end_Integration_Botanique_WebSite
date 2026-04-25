@@ -1,0 +1,53 @@
+.header{
+    padding-inline: 1rem;
+    padding-block: 1.5rem;
+    color: var(--main);
+    display: flex;
+    justify-content: space-between;
+}   
+
+a:hover{
+    color: var(--secondary);
+}
+
+.header .logo{
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+.header-nav{
+    text-transform: uppercase;
+    color: var(--main);
+    font-size: .88rem;
+    letter-spacing: 1px;
+    display: none;
+}
+
+.header-nav .active{
+    border-bottom: solid 2px var(--main) ;
+    padding-bottom: 4px;
+}
+
+.header-nav a:hover{
+    color: var(--secondary);
+    padding-bottom: 7px;
+}
+
+.header-services{
+    display: flex;
+    gap: 15px;
+}
+
+@media (min-width: 715px){
+    .header-nav{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .header-services .burger-menu{
+        display: none;
+    }
+}

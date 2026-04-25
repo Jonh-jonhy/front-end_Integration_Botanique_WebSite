@@ -29,4 +29,5 @@
 
 body{
     background-color: var(--website-bg-color);
+    font-family: 'manrope', sans-serif;
 }
