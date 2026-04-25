@@ -1,0 +1,31 @@
+@import "reset.css";
+
+:root{
+    /* Fondations */
+    --website-bg-color: #fdf9ef;
+    --main: #23422a;
+    --secondary: #566342;
+    --main-text: #424842;
+    --white: #fff;
+    --shadow-head: #0000001c;
+    --section-bg-dark: #f1eee3;
+
+    /* Hero and surfaces */
+    --overlay-hero: #fdf9efd0;
+    --card-bg: #ebe8de;
+    --white-btn-hover: #ffffffd1;
+
+    /* Newsletter */
+    --bg-newsletter-input: #ffffff10;
+    --newsletter-text: #acd0af;
+    --placeholder-newsletter: #acd0afb1;
+
+    /*Citation and footer */
+    --citation-bloc: #dddad0;
+    --footer-bg: #DDDAD0;
+    --waiting-secondary-text: #566342c2;
+}
+
+body{
+    background-color: var(--website-bg-color);
+}
